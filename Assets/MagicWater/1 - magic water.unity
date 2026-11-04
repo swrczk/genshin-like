@@ -131,7 +131,8 @@ GameObject:
   - component: {fileID: 279996782}
   - component: {fileID: 279996781}
   - component: {fileID: 279996780}
-  m_Layer: 0
+  - component: {fileID: 279996784}
+  m_Layer: 4
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,6 +233,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279996784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279996779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a25c0306d57464089e9b5dcb0e9d6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MagicWater.MagicWaterReflection
+  _resolutionScale: 0.5
+  _reflectionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  _clipPlaneOffset: 0.05
 --- !u!1 &530127794
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +997,10 @@ PrefabInstance:
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: _terminalVelocity
       value: -53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: GroundLayers.m_Bits
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
