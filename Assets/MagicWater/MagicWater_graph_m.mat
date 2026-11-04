@@ -39,32 +39,32 @@ Material:
     m_Ints: []
     m_Floats:
     - _DepthFade: 1.5
-    - _Distortion: 0.015
+    - _Distortion: 0.11
     - _EdgeWidth: 0.3
     - _FresnelPower: 2
-    - _MinReflection: 0.45
+    - _MinReflection: 0.612
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReflectionStrength: 0.85
+    - _ReflectionStrength: 0.709
     - _RippleDistortion: 0.03
     - _RippleLifetime: 1.4
-    - _RippleSpeed: 1.2
-    - _RippleWidth: 0.08
+    - _RippleSpeed: 1.5
+    - _RippleWidth: 0.02
     - _ShallowAlpha: 0.6
-    - _SparkleAmount: 0.3
-    - _SparkleDensity: 1.5
+    - _SparkleAmount: 0.43
+    - _SparkleDensity: 1.11
     - _SparkleFadeDistance: 40
-    - _SparkleSize: 0.15
-    - _SparkleSpeed: 1.5
+    - _SparkleSize: 0.05
+    - _SparkleSpeed: 1
     - _WaveScale: 1.5
     - _WaveSpeed: 0.15
     m_Colors:
-    - _DeepColor: {r: 0.29019606, g: 0.27843136, b: 0.7490196, a: 1}
+    - _DeepColor: {r: 0.41370863, g: 0.2784314, b: 0.7490196, a: 1}
     - _EdgeColor: {r: 0.9019608, g: 0.9019608, b: 1, a: 1}
     - _ReflectionTint: {r: 0.854902, g: 0.8235294, b: 1, a: 1}
-    - _RippleColor: {r: 0, g: 3.231373, b: 3.278432, a: 1}
+    - _RippleColor: {r: 0.59370863, g: 0.7806989, b: 2.0654633, a: 1}
     - _ShallowColor: {r: 0.62745106, g: 0.6588235, b: 1, a: 1}
-    - _SparkleColor: {r: 0, g: 0.2049692, b: 3.215094, a: 1}
+    - _SparkleColor: {r: 0, g: 6.5590143, b: 102.88301, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1252025297636616054

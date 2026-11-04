@@ -14,7 +14,7 @@ namespace MagicWater
         private Vector3 _last;
         private float _idleTime;
         private bool _inWater;
-        private bool _leftFoot;
+        private bool _leftFoot = true;
 
         private void Update()
         {
@@ -50,7 +50,7 @@ namespace MagicWater
             }
 
             if (!(_idleInterval > 0)) return;
-            
+
             _idleTime += Time.deltaTime;
             if (_idleTime >= _idleInterval)
             {
