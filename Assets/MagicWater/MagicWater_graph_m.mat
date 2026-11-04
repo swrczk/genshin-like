@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _DepthFade: 1.5
-    - _Distortion: 0.11
+    - _Distortion: 0.05
     - _EdgeWidth: 0.3
     - _FresnelPower: 2
     - _MinReflection: 0.612
@@ -47,7 +47,7 @@ Material:
     - _QueueOffset: 0
     - _ReflectionStrength: 0.709
     - _RippleDistortion: 0.03
-    - _RippleLifetime: 1.4
+    - _RippleLifetime: 0.8
     - _RippleSpeed: 1.5
     - _RippleWidth: 0.02
     - _ShallowAlpha: 0.6
@@ -56,7 +56,7 @@ Material:
     - _SparkleFadeDistance: 40
     - _SparkleSize: 0.05
     - _SparkleSpeed: 1
-    - _WaveScale: 1.5
+    - _WaveScale: 3
     - _WaveSpeed: 0.15
     m_Colors:
     - _DeepColor: {r: 0.41370863, g: 0.2784314, b: 0.7490196, a: 1}
